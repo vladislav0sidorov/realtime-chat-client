@@ -1,0 +1,54 @@
+.chatWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chatList {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageCard {
+  max-width: 88%;
+  width: fit-content;
+  background-color: #f0f0f0;
+  ;
+}
+
+.senderMessageCard {
+  background-color: #1677ff;
+  color: white;
+  align-self: end;
+}
+
+.senderMessageText {
+  color: white;
+
+}
+
+.messageTime {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  align-self: self-end;
+}
+
+.senderMessageTime {
+  color: rgba(255, 255, 255, 0.792);
+}
+
+.loaderSpinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.noMessageBlock {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
